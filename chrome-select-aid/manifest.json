@@ -18,7 +18,7 @@
            "48": "icon48.png",
            "128": "icon128.png" },
  "background": {
-    "scripts": ["jquery-2.0.2.min.js","background.js"]
+    "scripts": ["background.js"]
  },       
   "content_scripts": [ {
     "js": [ "jquery-2.0.2.min.js", "select2/js/select2.min.js", "content.js" ],

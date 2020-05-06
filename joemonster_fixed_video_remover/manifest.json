@@ -1,13 +1,13 @@
 {
-  "name": "Wyjebywarka górnego paska z joemonster.org",
-  "version": "1.0.1",
+  "name": "Usuwanie okna wideo z joemonster.org",
+  "version": "1.0.2",
   "permissions": ["tabs", "*://joemonster.org/*"],
 
 "externally_connectable": {
     "ids": [
       "*"
     ]},
-  "description": "Wyjebuje górny pasek z joemonster.org",
+  "description": "Nie pojawia się zasłaniający część ekranu pasek z filmem na joemonster.org",
   "background": {"page": "background.html"},
   "manifest_version": 2,
  "background": {

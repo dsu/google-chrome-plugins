@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>Options</title></head>
+<body>
+
+<div>
+<div>
+<label for="sites" >
+Websites the plugin should work on.<br/>
+
+<small>for example: https://www.google.com/search https://www.facebook.com/mypage</small>
+</label>
+</div>
+<input type="textarea" id="sites" style="width:90%"></input>
+</div>
+<div>
+<br/>
+<div>
+<label for="sites" >
+HTML page element selector to observe for changes.<br/>
+<small>By default the whole page body is monitored</small>
+</label>
+</div>
+<input type="text" id="elementSelector" style="width:90%"></input>
+</div>
+<br/>
+<button id="save" style="padding:5pt" >Save</button>
+<br/>
+<div id="status"></div>
+
+<script>console.log('js')</script>
+<script src="options.js"></script>
+</body>
+</html>
