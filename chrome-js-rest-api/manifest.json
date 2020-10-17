@@ -1,5 +1,5 @@
 {
-  "name": "Page change sound notifier",
+  "name": "FIFA assistant tool",
   "version": "1.0.1",
   "permissions":["<all_urls>","storage"],
 
@@ -7,16 +7,17 @@
     "ids": [
       "*"
     ]},
-  "description": "Monitors the site for the changes and plays sound when any occures. It is useful for MS Teams to notify about new messages",
+  "description": "Enables to exchange the data between a REST API and the web app",
   "background": {"page": "background.html"},
   "manifest_version": 2,
   "browser_action": {
     "name": "Sort",
-    "default_icon": "icon16.png"
+    "default_icon": "icon192.png"
   },
-  "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-           "128": "icon128.png" },
+  "icons": { 
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "192": "icon192.png"},
  "background": {
     "scripts": ["background.js"]
  }, 
